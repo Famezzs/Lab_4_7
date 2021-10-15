@@ -34,7 +34,7 @@ int main()
 
 		do {
 			n++;
-			R = x * x * (2. * n - 1) / 1. * (2. * n + 1);
+			R = 1. * x * x * (2. * n - 1) / (2. * n + 1);
 			a *= R;
 			S += a;
 		}while (abs(a) >= eps);
